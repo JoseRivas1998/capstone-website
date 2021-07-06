@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
 import {Col} from 'react-bootstrap';
+import {Helmet} from 'react-helmet';
 
 class TestimonialEssay extends Component {
     render() {
         return (
             <Col>
+                <Helmet>
+                    <title>Testimonial Essay – Tiny Country Games RPG Engine Capstone Project</title>
+                </Helmet>
                 <h1>Testimonial Essay</h1>
                 <hr/>
                 <p>
